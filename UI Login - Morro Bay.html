@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        rel="stylesheet">
+
+        <link
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
+        
+        
+    </head>
+
+    <style>
+       
+        .container-fluid {
+            background: url('https://media-cdn.tripadvisor.com/media/photo-c/2560x500/08/91/d9/1c/morro-rock-and-the-bay.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .col {
+            height: 100vh;
+        }
+        #wrapper {
+            background-color:rgba(30, 30, 30, 0.7);
+            width: 600px;
+            height: 600px;
+            border-radius: 300px;
+            padding: 15px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 70px;
+            margin-bottom: 50px;
+            color:turquoise;
+            border: none;
+            font-size: 40px;
+        }
+
+        
+        .input-group {
+            width:100%;
+        }
+
+        input,
+            .icon-wrapper {
+                height: 44px;
+            }
+
+        .icon-wrapper {
+            align-items: center;
+            background-color: #555;
+            display: flex;
+            justify-content: center;
+            width: 44px;
+            margin-left: 75px;
+        }
+
+        .icon-wrapper i {
+            color: #ccc;
+            font-size: 21px;
+        }
+        input {
+            background-color: rgb(61, 123, 131);
+            border: none;
+            color: #ccc;
+            font-size: 20px;
+            /*margin-bottom: 20px;
+            margin-top: 10px;
+            margin-left: 50px;
+            margin-right: -15px;*/
+            margin-bottom: 15px;
+            /*padding: 9px;*/
+            padding-left: 120px;
+            /*text-align: center;*/
+            width: calc(73% - 44px);
+                        
+        }
+
+        input::placeholder {
+            color:whitesmoke;
+        }
+
+        button {
+            border: none;
+            display:block;
+            letter-spacing: 1.5px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+            margin-top: 10px;
+            padding: 9px;
+            text-transform: uppercase;
+            width: 60%;
+        }
+
+        hr {
+            display:block;
+            height: 1px;
+            border: 0;
+            border-top: 4px solid rgb(116, 113, 113);
+            margin-bottom: 15px;
+            margin-top: 2px;
+            width: 70%;
+        }
+
+        #forgot-password {
+            color: #ccc;
+            text-align: center;
+            text-transform: capitalize;
+        
+        }
+
+        a {
+            color: rgb(8, 138, 245);
+        }
+
+        a:hover {
+            color:rgb(173, 212, 245);
+        }
+
+        /*#forgot-password span {
+            text-decoration: underline;
+        }*/
+    </style>
+
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col d-flex align-items-center justify-content-center">
+                    
+
+                    <div id="wrapper">
+                        <h2>Member Login</h2>
+
+                        <div class="input-group">
+                            <div class="icon-wrapper">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <input placeholder="Username">
+                        </div>
+
+                        <div class="input-group">
+                            <div class="icon-wrapper">
+                                <i class="fa fa-lock"></i>
+                            </div>
+                            <input placeholder="Password">
+                        </div>
+
+                        <button class="d-block">Login</button>
+                        <p id="forgot-password">Forgot Password? &ensp;
+                        <!--<span>Click here</span></p>-->
+                        <a href="#"><u>Click Here</u></a>
+                        <hr>
+
+                        <button id="register-button">Register</button>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+
+
+
+
+
+
+
+
+</html>
